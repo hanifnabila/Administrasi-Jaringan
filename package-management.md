@@ -12,6 +12,8 @@ AngularJS-powered HTML5 Markdown editor.
 - See HTML in the right
 - ✨Magic ✨
 
+![Langkah 1](img\1.png)
+
 ## Features
 
 - Import a HTML file and watch it magically convert to Markdown
