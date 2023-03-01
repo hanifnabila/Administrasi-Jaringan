@@ -12,11 +12,11 @@ AngularJS-powered HTML5 Markdown editor.
 - See HTML in the right
 - ✨Magic ✨
 
-![Langkah 1](img\1.png)
+![Langkah 1](https://github.com/hanifnabila/Package-Management/blob/main/img/1.png)
 
-## Features
+## Evolusi Sistem Operasi
 
-- Import a HTML file and watch it magically convert to Markdown
+- Batch Job Processing
 - Drag and drop images (requires your Dropbox account be linked)
 - Import and save files from GitHub, Dropbox, Google Drive and One Drive
 - Drag and drop markdown and HTML files into Dillinger
@@ -25,6 +25,44 @@ AngularJS-powered HTML5 Markdown editor.
 Markdown is a lightweight markup language based on the formatting conventions
 that people naturally use in email.
 As [John Gruber] writes on the [Markdown site][df1]
+
+<div style="text-align: right"> Sistem operasi adalah program yang bertindak sebagai perantara antara pengguna komputer dan perangkat keras komputer. Tujuan dari sistem operasi adalah untuk menyediakan lingkungan di mana pengguna dapat menjalankan program. Tujuan utamanya adalah untuk membuat sistem komputer nyaman digunakan. Tujuan kedua adalah menggunakan perangkat keras komputer dengan cara yang efisien. Sistem komputer secara kasar dapat dibagi menjadi empat komponen: perangkat keras, sistem operasi, program aplikasi, dan pengguna. Perangkat keras – unit pemrosesan pusat (CPU), memori, dan perangkat input/output (I/O) – menyediakan sumber daya komputasi dasar. Program aplikasi - seperti kompiler, sistem basis data, permainan, dan program bisnis - menentukan cara sumber daya ini digunakan untuk memecahkan masalah komputasi pengguna. Mungkin ada banyak pengguna yang berbeda dan banyak program aplikasi yang berbeda. Sistem operasi mengontrol dan mengoordinasikan penggunaan perangkat keras di antara berbagai program aplikasi untuk berbagai pengguna. </div>
+
+
+Perbedaan antara perintah sudo dan su pada Linux
+Menjadi root dengan SU berarti sedang berada di -root, yang berarti sama dengan masuk ke terminal sebagai pengguna root dengan kata sandi Root. Dan itu berbahaya karena berbagai alasan.
+Ketika masuk sebagai root maka ada akses untuk:
+- Hapus  semua file
+- Ubah izin semua file
+- Mengubah akun user
+- Menginstall atau membuka sistem file
+- Mengapus atau install software
+- Membuat, mengahapus, dan mengubah file system
+
+Pada dasarnya, sebagai root user dapat melakukan apa saja yang ada pada sistem. Maka jika terjadi kesalahan yang dibuat sebagai user root dapat menghancurkan sistem. Alternatifnya adalah dengan menggunakan sudo.
+
+Sudo merupakan akronim dari superuser do atau pengganti user, yaitu perintah yang menjalankan prompt root tanpa harus mengubah identitas pengguna. Untuk menggunakan perintah root pada pengguna lain maka bisa diubah pada konfigurasi yang ada di file /etc/sudoers. Untuk bisa menjalanakan perintah yang ada di root, maka harus menggunakan perintah sudo. Contoh, jika ingin menginstall package nginx, apabila menggunakan perintah:
+```sh
+dnf install nginx
+```
+Jika menggunakan perintah diatas maka akan error karena tidak sebagai root atau di grup sudo. Maka alternatifnya dapat menjalankan perintah berikut:
+```sh
+sudo dnf install nginx
+```
+Namun apabila menggunakan perintah tersebut maka akan diminta untuk mengetikkan password terlebih dahulu baru bisa menjalankan perintah dengan catatan apabila user tersebut adalah bagian dari grup sudo. Namun ada cara lain agar dapat menjalankan beberapa perintah yang ada di sbin, dengan menggunakan user lain tanpa harus mengetikkan password terlebih dahulu , yaitu sebagai berikut
+1. Masuk sebagai su -
+```sh
+su -
+```
+2. Ketikkan perintah visudo
+```sh
+visudo
+```
+3. Lalu akan membuka file yang ada pada direktori /etc/sudores.tmp, lalu pada bagian User  privilege specification tambahkan user anda. Contoh disini nama user saya adalah nabila maka tambahkan seperti berikut:
+```sh
+nabila ALL=(ALL:ALL) ALL
+```
+seperti pada gambar dibawah ini
 
 > The overriding design goal for Markdown's
 > formatting syntax is to make it as readable
