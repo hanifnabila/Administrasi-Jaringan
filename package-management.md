@@ -64,6 +64,38 @@ nabila ALL=(ALL:ALL) ALL
 ```
 seperti pada gambar dibawah ini
 
+![Langkah 2](https://github.com/hanifnabila/Package-Management/blob/main/img/2.png)
+
+4. Jika sudah ditambahkan, simpan dan keluar dengan menekan tombol ctrl+x, lalu enter.
+5. Buka file direktori /etc/group dengan mengetikkan perintah
+```sh
+nano /etc/group
+```
+   Pada baris pertama yaitu dibagian `root:x:x:0:`, tambahkan nama user yang ingin diberikan akses.
+   ![Langkah 2](https://github.com/hanifnabila/Package-Management/blob/main/img/3.png)
+      
+SU
+Su adalah akronim untuk switch user atau substitute user. Pada dasarnya perintah ini beralih ke pengguna tertentu dan memerlukan kata sandi untuk pengguna yang diganti. Yang sering digunakan adalah beralih ke akun root tetapi bisa juga beralih ke akun apapun yang ada di sistem.
+Sebagai contoh, jika mengetikkan:
+```sh
+$ su -
+```
+Pada contoh diatas maka akan beralih ke root dan membutuhkan password root. Dengan menambahkan (-) berarti memberikan layanan root environment (variabel path dan shell) sehingga dengan mudah memberikan root user power menggunakan single command dan tetap menjaga environment user.
+```sh
+$ su nabila
+```
+Pada contoh kedua, ini hanya beralih ke nabila. Dan membutuhkan password dari user nabila. Jika ingin beralih ke akun nabila termasuk juga path dan environment, maka tambahkan opsi (-).
+```sh
+$ su - nabila
+```
+Opsi - memiliki efek yang sama dengan masuk ke sistem secara langsung dengan akun pengguna tersebut. Intihnya, akan menjadi pengguna tersebut.
+```sh
+$ su
+```
+Apabila hanya mengetikkan perintah su saja tanpa tanda (-) berarti masuk ke direktori /bin sehingga tidak masuk ke environment root. Dan membutuhkan password root.
+
+Package Management
+
 > The overriding design goal for Markdown's
 > formatting syntax is to make it as readable
 > as possible. The idea is that a
