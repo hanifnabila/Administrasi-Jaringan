@@ -138,6 +138,8 @@ apt-get install htop
 ```
 ![Langkah 2](https://github.com/hanifnabila/Package-Management/blob/main/img/8.png)
 
+
+
 > The overriding design goal for Markdown's
 > formatting syntax is to make it as readable
 > as possible. The idea is that a
