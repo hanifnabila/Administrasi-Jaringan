@@ -96,6 +96,9 @@ Apabila hanya mengetikkan perintah su saja tanpa tanda (-) berarti masuk ke dire
 
 Package Management
 
+APT
+Perintah Apt adalah command-line tool, yang bekerja dengan APT ubuntu berfungsi seperti melakukan installasi package software, update package software yang ada, update index daftar package, dan bahkan upgrade sistem ubuntu.
+
 > The overriding design goal for Markdown's
 > formatting syntax is to make it as readable
 > as possible. The idea is that a
