@@ -110,9 +110,33 @@ deb-src http://deb.debian.org/debian bullseye main
 ```
 Tampilannya akan seperti gambar di bawah ini
 
+![Langkah 2](https://github.com/hanifnabila/Package-Management/blob/main/img/4.png)
+
 2. Update Server 
 Langkah selanjutnya yaitu update package menggunakan command `apt update` or `apt-get update` seperti gambar berikut ini
 
+![Langkah 2](https://github.com/hanifnabila/Package-Management/blob/main/img/5.png)
+
+## Install Package
+Setelah konfigurasi repository, sekarang sudah bisa menginstall sebuah package menggunakan perintah `apt-get install`
+
+- Install package mc
+```sh
+apt-get install mc
+```
+![Langkah 2](https://github.com/hanifnabila/Package-Management/blob/main/img/6.png)
+
+- Install package net-tools
+```sh
+apt-get install net-tools
+```
+![Langkah 2](https://github.com/hanifnabila/Package-Management/blob/main/img/7.png)
+
+- Install package htop
+```sh
+apt-get install htop
+```
+![Langkah 2](https://github.com/hanifnabila/Package-Management/blob/main/img/8.png)
 
 > The overriding design goal for Markdown's
 > formatting syntax is to make it as readable
