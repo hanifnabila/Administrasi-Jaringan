@@ -75,6 +75,7 @@ nano /etc/group
    ![Langkah 2](https://github.com/hanifnabila/Package-Management/blob/main/img/3.png)
       
 SU
+
 Su adalah akronim untuk switch user atau substitute user. Pada dasarnya perintah ini beralih ke pengguna tertentu dan memerlukan kata sandi untuk pengguna yang diganti. Yang sering digunakan adalah beralih ke akun root tetapi bisa juga beralih ke akun apapun yang ada di sistem.
 Sebagai contoh, jika mengetikkan:
 ```sh
@@ -96,8 +97,22 @@ Apabila hanya mengetikkan perintah su saja tanpa tanda (-) berarti masuk ke dire
 
 Package Management
 
-APT
+# APT
 Perintah Apt adalah command-line tool, yang bekerja dengan APT ubuntu berfungsi seperti melakukan installasi package software, update package software yang ada, update index daftar package, dan bahkan upgrade sistem ubuntu.
+
+## Setting Repository
+
+1. Tambahkan Paket Repo
+Buka file `/etc/apt/sources.list` menggunakan editor nano dan tambahkan repository source di bawah ini. Kemudian save dan close dengan menggunakan Ctrl+X.
+```sh
+deb http://deb.debian.org/debian bullseye main
+deb-src http://deb.debian.org/debian bullseye main
+```
+Tampilannya akan seperti gambar di bawah ini
+
+2. Update Server 
+Langkah selanjutnya yaitu update package menggunakan command `apt update` or `apt-get update` seperti gambar berikut ini
+
 
 > The overriding design goal for Markdown's
 > formatting syntax is to make it as readable
