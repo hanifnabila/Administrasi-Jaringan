@@ -5,7 +5,7 @@
 <div style="text-align: right"> Sistem operasi adalah program yang bertindak sebagai perantara antara pengguna komputer dan perangkat keras komputer. Tujuan dari sistem operasi adalah untuk menyediakan lingkungan di mana pengguna dapat menjalankan program. Tujuan utamanya adalah untuk membuat sistem komputer nyaman digunakan. Tujuan kedua adalah menggunakan perangkat keras komputer dengan cara yang efisien. Sistem komputer secara kasar dapat dibagi menjadi empat komponen: perangkat keras, sistem operasi, program aplikasi, dan pengguna. Perangkat keras – unit pemrosesan pusat (CPU), memori, dan perangkat input/output (I/O) – menyediakan sumber daya komputasi dasar. Program aplikasi - seperti kompiler, sistem basis data, permainan, dan program bisnis - menentukan cara sumber daya ini digunakan untuk memecahkan masalah komputasi pengguna. Mungkin ada banyak pengguna yang berbeda dan banyak program aplikasi yang berbeda. Sistem operasi mengontrol dan mengoordinasikan penggunaan perangkat keras di antara berbagai program aplikasi untuk berbagai pengguna. </div>
 
 
-Perbedaan antara perintah sudo dan su pada Linux
+## Perbedaan antara perintah sudo dan su pada Linux
 Menjadi root dengan SU berarti sedang berada di -root, yang berarti sama dengan masuk ke terminal sebagai pengguna root dengan kata sandi Root. Dan itu berbahaya karena berbagai alasan.
 Ketika masuk sebagai root maka ada akses untuk:
 - Hapus  semua file
@@ -17,6 +17,7 @@ Ketika masuk sebagai root maka ada akses untuk:
 
 Pada dasarnya, sebagai root user dapat melakukan apa saja yang ada pada sistem. Maka jika terjadi kesalahan yang dibuat sebagai user root dapat menghancurkan sistem. Alternatifnya adalah dengan menggunakan sudo.
 
+## Sudo
 Sudo merupakan akronim dari superuser do atau pengganti user, yaitu perintah yang menjalankan prompt root tanpa harus mengubah identitas pengguna. Untuk menggunakan perintah root pada pengguna lain maka bisa diubah pada konfigurasi yang ada di file /etc/sudoers. Untuk bisa menjalanakan perintah yang ada di root, maka harus menggunakan perintah sudo. Contoh, jika ingin menginstall package nginx, apabila menggunakan perintah:
 ```sh
 dnf install nginx
@@ -50,7 +51,7 @@ nano /etc/group
    Pada baris pertama yaitu dibagian `root:x:x:0:`, tambahkan nama user yang ingin diberikan akses.
    ![Langkah 2](https://github.com/hanifnabila/Package-Management/blob/main/img/3.png)
       
-SU
+## Su
 
 Su adalah akronim untuk switch user atau substitute user. Pada dasarnya perintah ini beralih ke pengguna tertentu dan memerlukan kata sandi untuk pengguna yang diganti. Yang sering digunakan adalah beralih ke akun root tetapi bisa juga beralih ke akun apapun yang ada di sistem.
 Sebagai contoh, jika mengetikkan:
