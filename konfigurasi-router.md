@@ -8,3 +8,5 @@ Sebelum mengkonfigurasi, pastikan terlebih dahulu untuk mencatat
 1. langkah pertama adalah jalankan `winbox.exe` terlebih dahulu menggunakan aplikasi wine. Wine adalah aplikasi yang digunakan untuk menjalankan program yang ada di windows melalui sistem linux. Jalankan perintah `wine winbox.exe` pada folder yang digunakan untuk menyimpan aplikasi winbox.
 
 ![Langkah 1](https://github.com/hanifnabila/Package-Management/blob/main/img/konfigurasi-router/1.png)
+
+2. Lalu akan muncul tampilan winbox seperti dibawah ini, sebelum masuk ke konfigurasinya maka harus login terlebih dahulu
