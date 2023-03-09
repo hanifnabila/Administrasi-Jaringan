@@ -9,7 +9,7 @@ Nama Anggota Kelompok :
 
 ## Static Routing
 
-Sebelum mengkonfigurasi, pastikan terlebih dahulu untuk mencatat
+Sebelum mengkonfigurasi, pastikan terlebih dahulu untuk mencatat IP Address
 
 1. langkah pertama adalah jalankan `winbox.exe` terlebih dahulu menggunakan aplikasi wine. Wine adalah aplikasi yang digunakan untuk menjalankan program yang ada di windows melalui sistem linux. Jalankan perintah `wine winbox.exe` pada folder yang digunakan untuk menyimpan aplikasi winbox.
 
@@ -100,5 +100,16 @@ lalu akan muncul window “Oracle VM Virtualbox Manager”.
 
 3. Tentukan jumlah memori dan yang digunakan untuk virtual OS
 
+![Langkah 11](https://github.com/hanifnabila/Administrasi-Jaringan/blob/main/img/konfigruasi-router/14.jpeg)
+
+4. Tentukan jumlah storage dan yang digunakan untuk virtual OS
+
+![Langkah 11](https://github.com/hanifnabila/Administrasi-Jaringan/blob/main/img/konfigruasi-router/15.jpeg)
+
 Berikut adalah summary dari setting yang sudah disetting tadi
 
+![Langkah 11](https://github.com/hanifnabila/Administrasi-Jaringan/blob/main/img/konfigruasi-router/16.jpeg)
+
+5. Setelah install virtualbox dan setting virtual machine, install OS ubuntu pada virtual machine yang sudah dibuat. Berikut tampilan awal OS Ubuntu setelah diinstall.
+
+![Langkah 11](https://github.com/hanifnabila/Administrasi-Jaringan/blob/main/img/konfigruasi-router/17.jpeg)
