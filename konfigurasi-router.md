@@ -3,6 +3,10 @@
 Kelompok 3
 Tugas Routing Routerboard 3011
 
+Nama Anggota Kelompok :
+- Hanif Nabila (312600046)
+- Muhammad Hafid Azis (3121600055)
+
 ## Static Routing
 
 Sebelum mengkonfigurasi, pastikan terlebih dahulu untuk mencatat
@@ -84,4 +88,17 @@ lalu akan muncul window “Oracle VM Virtualbox Manager”.
 ![Langkah 11](https://github.com/hanifnabila/Administrasi-Jaringan/blob/main/img/konfigruasi-router/11.jpeg)
 
 
-## Installasi Ubuntu pada virtualbox
+## Installasi Virtual Machine pada virtualbox
+
+1. Ketika sudah menginstall virtualbox, setting virtual machine untuk menginstall ubuntu yang sudah disiapkan. Beri nama virtual machine dan OS yang akan diinstall
+
+![Langkah 11](https://github.com/hanifnabila/Administrasi-Jaringan/blob/main/img/konfigruasi-router/12.jpeg)
+
+2. Create username dan password
+
+![Langkah 11](https://github.com/hanifnabila/Administrasi-Jaringan/blob/main/img/konfigruasi-router/13.jpeg)
+
+3. Tentukan jumlah memori dan yang digunakan untuk virtual OS
+
+Berikut adalah summary dari setting yang sudah disetting tadi
+
