@@ -1,16 +1,6 @@
 # Package Management
 ## Evolusi Sistem Operasi
 
-- Batch Job Processing
-- Drag and drop images (requires your Dropbox account be linked)
-- Import and save files from GitHub, Dropbox, Google Drive and One Drive
-- Drag and drop markdown and HTML files into Dillinger
-- Export documents as Markdown, HTML and PDF
-
-Markdown is a lightweight markup language based on the formatting conventions
-that people naturally use in email.
-As [John Gruber] writes on the [Markdown site][df1]
-
 <div style="text-align: right"> Sistem operasi adalah program yang bertindak sebagai perantara antara pengguna komputer dan perangkat keras komputer. Tujuan dari sistem operasi adalah untuk menyediakan lingkungan di mana pengguna dapat menjalankan program. Tujuan utamanya adalah untuk membuat sistem komputer nyaman digunakan. Tujuan kedua adalah menggunakan perangkat keras komputer dengan cara yang efisien. Sistem komputer secara kasar dapat dibagi menjadi empat komponen: perangkat keras, sistem operasi, program aplikasi, dan pengguna. Perangkat keras – unit pemrosesan pusat (CPU), memori, dan perangkat input/output (I/O) – menyediakan sumber daya komputasi dasar. Program aplikasi - seperti kompiler, sistem basis data, permainan, dan program bisnis - menentukan cara sumber daya ini digunakan untuk memecahkan masalah komputasi pengguna. Mungkin ada banyak pengguna yang berbeda dan banyak program aplikasi yang berbeda. Sistem operasi mengontrol dan mengoordinasikan penggunaan perangkat keras di antara berbagai program aplikasi untuk berbagai pengguna. </div>
 
 
